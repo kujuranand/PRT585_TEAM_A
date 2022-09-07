@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>CRUD opertation (Create, Read, Update and Delete)</h1>
+    <h3>Without using Entity Framework, In RazorPages</h3>
+    <hr/>
+    <form method="post">
+        <div class="form-group">
+            Name <input type="text" name="Empname" placeholder="Enter Employee Name:"/>
+            Email <input type="email" name="Email" placeholder="Enter Email ID:" />
+            Age <input type="text" name="Age" placeholder="Enter The Age:" />
+            Salary <input type="text" name="Salary" placeholder="Enter Salary:" />
+            <input type="submit" value="Add new Employee" class=" btn btn-primary"/>
+        </div>
+
+    <table class="table">
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+        @foreach(var item in Model.Getrecords)
+        {
+            <tr>
+                <td>@item.Empid</td>
+                <td>@item.Empname</td>
+                <td>@item.Email</td>
+                <td>@item.Age</td>
+                <td>@item.Salary</td>
+            </tr>
+        }
+    </table>
+    </form>
+</div>
