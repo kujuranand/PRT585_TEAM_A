@@ -30,13 +30,15 @@ namespace WebApplication3tierApp.Models
 
         public static EmployeeModel ToEmployeeModel(this EmployeeDto src)
         {
-            var dst = new EmployeeModel();
-            dst.EmployeeId = src.EmployeeId;
-            dst.EmployeeName = src.EmployeeName;
-            dst.Email = src.Email;
-            dst.Phone = src.Phone;
-            dst.Salary = src.Salary;
-            dst.Department = src.Department;
+            var dst = new EmployeeModel
+            {
+                EmployeeId = src.EmployeeId,
+                EmployeeName = src.EmployeeName,
+                Email = src.Email,
+                Phone = src.Phone,
+                Salary = src.Salary,
+                Department = src.Department
+            };
 
             return dst;
         }
