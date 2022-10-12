@@ -1,4 +1,5 @@
-﻿using _2DataAccessLayer.Context.Models;
+﻿using _1CommonInfrastructure.Models;
+using _2DataAccessLayer.Context.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,7 @@ namespace _2DataAccessLayer.Context
 
         public DbSet<Person> People { get; set; }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Employee> Employees { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Lecturer> Lecturers { get; set; }
         public DbSet<Unit> Units { get; set; }
