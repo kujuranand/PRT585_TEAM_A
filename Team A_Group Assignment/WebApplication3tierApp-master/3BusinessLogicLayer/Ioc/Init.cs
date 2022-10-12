@@ -1,4 +1,6 @@
-﻿using _3BusinessLogicLayer.Interfaces;
+﻿using _2DataAccessLayer.Interfaces;
+using _2DataAccessLayer.Services;
+using _3BusinessLogicLayer.Interfaces;
 using _3BusinessLogicLayer.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +14,7 @@ namespace _3BusinessLogicLayer.Ioc
                       
             // Services
             services.AddScoped<IPersonService, PersonService>();
+            services.AddScoped<IEmployeeDal, EmployeeDal>();
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<ILecturerService, LecturerService>();
             services.AddScoped<IUnitService, UnitService>();
