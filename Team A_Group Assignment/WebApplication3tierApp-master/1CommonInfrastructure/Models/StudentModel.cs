@@ -11,6 +11,10 @@ namespace _1CommonInfrastructure.Models
     {
         public int StudentId { get; set; } // int
         public string StudentName { get; set; } // nvarchar(400)
+        public string StudentNumber { get; set; } // nvarchar(400)
+        public string StudentEmail { get; set; } // nvarchar(400)
+        public string StudentPhone { get; set; } // nvarchar(400)
+
 
     }
 
