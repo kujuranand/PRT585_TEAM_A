@@ -4,9 +4,9 @@ namespace WebApplication3tierApp.Models
 {
     public class UnitDto
     {
-        public int UnitId { get; set; }
-        public string UnitCode { get; set; }
-        public string UnitName { get; set; }
+        public int id { get; set; }
+        public string code { get; set; }
+        public string name { get; set; }
 
 
     }
@@ -16,18 +16,18 @@ namespace WebApplication3tierApp.Models
         public static UnitDto ToUnitDto(this UnitModel src)
         {
             var dst = new UnitDto();
-            dst.UnitId = src.UnitId;
-            dst.UnitCode = src.UnitCode;
-            dst.UnitName = src.UnitName;
+            dst.id = src.id;
+            dst.code = src.code;
+            dst.name = src.name;
             return dst;
         }
 
         public static UnitModel ToUnitModel(this UnitDto src)
         {
             var dst = new UnitModel();
-            dst.UnitId = src.UnitId;
-            dst.UnitCode = src.UnitCode;
-            dst.UnitName = src.UnitName;
+            dst.id = src.id;
+            dst.code = src.code;
+            dst.name = src.name;
             return dst;
         }
     }
