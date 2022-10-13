@@ -18,7 +18,6 @@ namespace _2DataAccessLayer.Ioc
             //services.AddScoped<IDocumentDataTempDal, DocumentDataTempDal>();
             //services.AddScoped<IUserDal, UserDal>();
             
-            services.AddScoped<IPersonDal, PersonDal>();
             services.AddScoped<IStudentDal, StudentDal>();
             services.AddScoped<IUnitDal, UnitDal>();
 
