@@ -20,7 +20,6 @@ namespace _2DataAccessLayer.Ioc
             
             services.AddScoped<IPersonDal, PersonDal>();
             services.AddScoped<IStudentDal, StudentDal>();
-            services.AddScoped<IEmployeeDal, EmployeeDal>();
 
         }
     }
