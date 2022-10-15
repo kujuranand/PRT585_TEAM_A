@@ -28,10 +28,10 @@ namespace WebApplication3tierApp.Controllers
             return result.Select(x => x.ToStudentDto()).ToList();
         }
 
-        [HttpGet("{StudentId}", Name = "GetStudent")]
-        public async Task<StudentDto?> Get(int StudentId)
+        [HttpGet("{Id}", Name = "GetStudent")]
+        public async Task<StudentDto?> Get(int Id)
         {
-            var result = await _StudentService.GetById(StudentId);
+            var result = await _StudentService.GetById(Id);
             return result?.ToStudentDto();
         }
 
@@ -49,10 +49,10 @@ namespace WebApplication3tierApp.Controllers
             return Ok();
         }
 
-        [HttpDelete, Route("{StudentId}")]
-        public async Task<IActionResult> Delete(int StudentId)
+        [HttpDelete, Route("{Id}")]
+        public async Task<IActionResult> Delete(int Id)
         {
-            await _StudentService.DeleteStudent(StudentId);
+            await _StudentService.DeleteStudent(Id);
             return Ok();
         }
     }

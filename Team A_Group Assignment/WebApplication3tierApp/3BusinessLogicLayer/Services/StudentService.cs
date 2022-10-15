@@ -21,9 +21,9 @@ namespace _3BusinessLogicLayer.Services
             // _StudentBalService = balsvc;
         }
 
-        public async Task<StudentModel?> GetById(int StudentId)
+        public async Task<StudentModel?> GetById(int Id)
         {           
-            return _StudentDal.GetById(StudentId);
+            return _StudentDal.GetById(Id);
         }
 
         public async Task<List<StudentModel>> GetAll()
@@ -34,8 +34,8 @@ namespace _3BusinessLogicLayer.Services
         public async Task<int> CreateStudent(StudentModel Student)
         {
             //write validations here
-            var newStudentId = _StudentDal.CreateStudent(Student);
-            return newStudentId;
+            var newId = _StudentDal.CreateStudent(Student);
+            return newId;
         }
 
         public async Task UpdateStudent(StudentModel Student)
@@ -44,16 +44,16 @@ namespace _3BusinessLogicLayer.Services
             _StudentDal.UpdateStudent(Student);
         }
 
-        public async Task DeleteStudent(int StudentId)
+        public async Task DeleteStudent(int Id)
         {            
             try
             {
-                //if(balservice.getBal(StudentId) = 0)
-                _StudentDal.DeleteStudent(StudentId);
+                //if(balservice.getBal(Id) = 0)
+                _StudentDal.DeleteStudent(Id);
             }
             catch (Exception e)
             {
-                //_loggingService.WriteLog(LoggingLevel.Error, "Layer", $"Error delete Student Id:{StudentId}. {e.Message}", e.StackTrace);
+                //_loggingService.WriteLog(LoggingLevel.Error, "Layer", $"Error delete Student Id:{Id}. {e.Message}", e.StackTrace);
             }
         }
     }

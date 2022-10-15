@@ -34,9 +34,9 @@ namespace _2DataAccessLayer.Services
             return returnObject;
         }
 
-        public StudentModel? GetById(int StudentId)
+        public StudentModel? GetById(int Id)
         {
-            var result = _db.Students.SingleOrDefault(x => x.StudentId == StudentId);
+            var result = _db.Students.SingleOrDefault(x => x.Id == Id);
             return result?.ToStudentModel();
         }
 
@@ -46,18 +46,18 @@ namespace _2DataAccessLayer.Services
             var newStudent = Student.ToStudent();
             _db.Students.Add(newStudent);
             _db.SaveChanges();
-            return newStudent.StudentId;
+            return newStudent.Id;
         }
 
 
         public void UpdateStudent(StudentModel Student)
         {
             var existingStudent = _db.Students
-                .SingleOrDefault(x => x.StudentId == Student.StudentId);
+                .SingleOrDefault(x => x.Id == Student.Id);
 
             if (existingStudent == null)
             {
-                throw new ApplicationException($"Student {Student.StudentId} does not exist.");
+                throw new ApplicationException($"Student {Student.Id} does not exist.");
             }
             Student.ToStudent(existingStudent);
 
@@ -65,9 +65,9 @@ namespace _2DataAccessLayer.Services
             _db.SaveChanges();
         }
 
-        public void DeleteStudent(int StudentId)
+        public void DeleteStudent(int Id)
         {
-            var efModel = _db.Students.Find(StudentId);
+            var efModel = _db.Students.Find(Id);
             _db.Students.Remove(efModel);
             _db.SaveChanges();
 

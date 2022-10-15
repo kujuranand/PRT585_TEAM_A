@@ -15,8 +15,11 @@ namespace _2DataAccessLayer.Maps
         {
             var dst = new StudentModel();
 
-            dst.StudentId = src.StudentId;
-            dst.StudentName = src.StudentName;
+            dst.Id = src.Id;
+            dst.Name = src.Name;
+            dst.Email = src.Email;
+            dst.Phone = src.Phone;
+            dst.Course = src.Course;
 
             return dst;
         }
@@ -28,8 +31,11 @@ namespace _2DataAccessLayer.Maps
                 dst = new Student();
             }
 
-            dst.StudentId = src.StudentId;
-            dst.StudentName = src.StudentName;
+            dst.Id = src.Id;
+            dst.Name = src.Name;
+            dst.Email = src.Email;
+            dst.Phone = src.Phone;
+            dst.Course = src.Course;
 
             return dst;
         }
