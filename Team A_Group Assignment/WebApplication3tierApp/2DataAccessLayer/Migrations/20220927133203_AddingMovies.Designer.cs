@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _2DataAccessLayer.Context;
 
@@ -11,9 +12,10 @@ using _2DataAccessLayer.Context;
 namespace _2DataAccessLayer.Migrations
 {
     [DbContext(typeof(DBEntitiesContext))]
-    partial class DBEntitiesContextModelSnapshot : ModelSnapshot
+    [Migration("20220927133203_AddingMovies")]
+    partial class AddingMovies
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -67,23 +69,6 @@ namespace _2DataAccessLayer.Migrations
                     b.HasKey("PersonId");
 
                     b.ToTable("People");
-                });
-
-            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Student", b =>
-                {
-                    b.Property<int>("StudentId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"), 1L, 1);
-
-                    b.Property<string>("StudentName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("StudentId");
-
-                    b.ToTable("Students");
                 });
 #pragma warning restore 612, 618
         }

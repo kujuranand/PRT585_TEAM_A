@@ -6,12 +6,7 @@ namespace WebApplication3tierApp.Models
     {
         public int StudentId { get; set; }
         public string StudentName { get; set; }
-        public string Email { get; set; }
-
-        public long Phone { get; set; }
-
-        public string Course { get; set; }
-
+                        
     }
 
     public static class StudentDtoMapExtensions
@@ -20,10 +15,7 @@ namespace WebApplication3tierApp.Models
         {
             var dst = new StudentDto();
             dst.StudentId = src.StudentId;
-            dst.StudentName = src.StudentName;
-            dst.Email = src.Email;
-            dst.Phone = src.Phone;
-            dst.Course = src.Course;
+            dst.StudentName = src.StudentName;            
             return dst;
         }
 
@@ -31,10 +23,7 @@ namespace WebApplication3tierApp.Models
         {
             var dst = new StudentModel();
             dst.StudentId = src.StudentId;
-            dst.StudentName = src.StudentName;
-            dst.Email = src.Email;
-            dst.Phone = src.Phone;
-            dst.Course = src.Course;
+            dst.StudentName = src.StudentName;            
             return dst;
         }
     }

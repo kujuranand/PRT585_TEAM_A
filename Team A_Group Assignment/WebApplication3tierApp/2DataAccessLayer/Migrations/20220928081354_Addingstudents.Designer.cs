@@ -12,8 +12,8 @@ using _2DataAccessLayer.Context;
 namespace _2DataAccessLayer.Migrations
 {
     [DbContext(typeof(DBEntitiesContext))]
-    [Migration("20221013063253_Units")]
-    partial class Units
+    [Migration("20220928081354_Addingstudents")]
+    partial class Addingstudents
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,6 +23,23 @@ namespace _2DataAccessLayer.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Movie", b =>
+                {
+                    b.Property<int>("MovieId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MovieId"), 1L, 1);
+
+                    b.Property<string>("MovieName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MovieId");
+
+                    b.ToTable("Movies");
+                });
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Person", b =>
                 {
@@ -62,17 +79,6 @@ namespace _2DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"), 1L, 1);
 
-                    b.Property<string>("Course")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long>("Phone")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("StudentName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -80,27 +86,6 @@ namespace _2DataAccessLayer.Migrations
                     b.HasKey("StudentId");
 
                     b.ToTable("Students");
-                });
-
-            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Unit", b =>
-                {
-                    b.Property<int>("UnitId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UnitId"), 1L, 1);
-
-                    b.Property<string>("UnitCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UnitName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("UnitId");
-
-                    b.ToTable("Units");
                 });
 #pragma warning restore 612, 618
         }

@@ -10,11 +10,6 @@ namespace _2DataAccessLayer.Context.Models
     {
         public int StudentId { get; set; } // int
         public string StudentName { get; set; } // nvarchar(400)
-
-        public string Email { get; set; }
-
-        public long Phone { get; set; }
-
-        public string Course { get; set; }
+        
     }
 }

@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2DataAccessLayer.Context.Models
 {
-    public class Unit
+    public class Movie
     {
-        public int UnitId { get; set; } // int
-        public string UnitCode { get; set; } // nvarchar(400)
-
-        public string UnitName { get; set; }
-
+        public int MovieId { get; set; } // int
+        public string MovieName { get; set; } // nvarchar(400)
+        
     }
 }

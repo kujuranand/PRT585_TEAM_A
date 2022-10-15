@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace _2DataAccessLayer.Interfaces
 {
-    public interface IUnitDal
+    public interface IPersonDal
     {
         // Getters
-        UnitModel? GetById(int UnitId);
-        List<UnitModel> GetAll();
+        PersonModel? GetById(int personId);
+        List<PersonModel> GetAll();
 
         // Actions
-        int CreateUnit(UnitModel Unit);
-        void UpdateUnit(UnitModel Unit);
-        void DeleteUnit(int UnitId);
+        int CreatePerson(PersonModel person);
+        void UpdatePerson(PersonModel person);
+        void DeletePerson(int personId);
     }
 }
