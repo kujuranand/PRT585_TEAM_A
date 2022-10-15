@@ -42,7 +42,7 @@ namespace WebApplication3tierApp.Controllers
             return await _StudentService.CreateStudent(StudentModel);
         }
 
-        [HttpPut, Route("update")]
+        [HttpPut, Route("{Id}")]
         public async Task<IActionResult> Update([FromBody] StudentDto requestDto)
         {
             await _StudentService.UpdateStudent(requestDto.ToStudentModel());
