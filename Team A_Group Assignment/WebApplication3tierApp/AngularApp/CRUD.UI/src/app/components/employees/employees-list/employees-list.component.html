@@ -1,6 +1,7 @@
 <div class="container my-5">
     <h1 class="mb-3">Employees</h1>
-    <p><a [routerLink]="['add']">Add New Employee</a></p>
+    <!-- <p><a [routerLink]="['add']">Add New Employee</a></p> -->
+    <p><button type="button" class="btn btn-primary" [routerLink]="['add']" >Add New Employee</button></p>
 
     <table class="table" *ngIf="employees && employees.length > 0">
         <thead>
