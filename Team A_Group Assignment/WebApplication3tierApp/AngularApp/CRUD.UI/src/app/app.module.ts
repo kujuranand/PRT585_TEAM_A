@@ -4,17 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StudentsListComponent } from './components/students/students-list/students-list.component';
-import { AddStudentComponent } from './components/students/add-student/add-student.component';
 import { FormsModule } from '@angular/forms';
-import { EditStudentComponent } from './components/students/edit-student/edit-student.component';
+import { EmployeesListComponent } from './components/employees/employees-list/employees-list.component';
+import { AddEmployeeComponent } from './components/employees/add-employee/add-employee.component';
+import { EditEmployeeComponent } from './components/employees/edit-employee/edit-employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentsListComponent,
-    AddStudentComponent,
-    EditStudentComponent
+    EmployeesListComponent,
+    AddEmployeeComponent,
+    EditEmployeeComponent
   ],
   imports: [
     BrowserModule,

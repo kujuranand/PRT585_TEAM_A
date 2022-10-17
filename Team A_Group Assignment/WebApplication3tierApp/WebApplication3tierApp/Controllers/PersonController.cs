@@ -42,7 +42,7 @@ namespace WebApplication3tierApp.Controllers
             return await _personService.CreatePerson(personModel);
         }
 
-        [HttpPut, Route("update")]
+        [HttpPut, Route("{Id}")]
         public async Task<IActionResult> Update([FromBody] PersonDto requestDto)
         {
             await _personService.UpdatePerson(requestDto.ToPersonModel());
