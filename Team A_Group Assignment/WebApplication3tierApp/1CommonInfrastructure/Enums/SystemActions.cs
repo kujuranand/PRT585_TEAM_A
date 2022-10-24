@@ -35,7 +35,31 @@ namespace _1CommonInfrastructure.Enums
         CourseUpdate,
 
         [ActionGroupDescription("Course", "Delete")]
-        CourseDelete
+        CourseDelete,
+
+        [ActionGroupDescription("Employee", "View")]
+        EmployeeView,
+
+        [ActionGroupDescription("Employee", "Create")]
+        EmployeeCreate,
+
+        [ActionGroupDescription("Employee", "Update")]
+        EmployeeUpdate,
+
+        [ActionGroupDescription("Employee", "Delete")]
+        EmployeeDelete,
+
+        [ActionGroupDescription("Subject", "View")]
+        SubjectView,
+
+        [ActionGroupDescription("Subject", "Create")]
+        SubjectCreate,
+
+        [ActionGroupDescription("Subject", "Update")]
+        SubjectUpdate,
+
+        [ActionGroupDescription("Subject", "Delete")]
+        SubjectDelete
     }
 }
 
