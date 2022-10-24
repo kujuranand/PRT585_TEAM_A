@@ -3,31 +3,31 @@
 
     <div class="row">
         <div class="col-6">
-            <form #form="ngForm" (ngSubmit)="addEmployee()">
+            <form #form="ngForm" (ngSubmit)="addEmployee()" class="was-validated">
                 
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="name" name="name" [(ngModel)]="addEmployeeRequest.name">
+                  <input type="text" class="form-control is-invalid" id="name" name="name" [(ngModel)]="addEmployeeRequest.name" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" [(ngModel)]="addEmployeeRequest.email">
+                    <input type="email" class="form-control is-invalid" id="email" name="email" [(ngModel)]="addEmployeeRequest.email" required>
                   </div>
 
                   <div class="mb-3">
                     <label for="phone" class="form-label">Phone</label>
-                    <input type="number" class="form-control" id="phone" name="phone" [(ngModel)]="addEmployeeRequest.phone">
+                    <input type="number" class="form-control" id="phone" name="phone" [(ngModel)]="addEmployeeRequest.phone" required>
                   </div>
 
-                  <div class="mb-3">
+                  <!-- <div class="mb-3">
                     <label for="salary" class="form-label">Salary</label>
                     <input type="number" class="form-control" id="salary" name="salary" [(ngModel)]="addEmployeeRequest.salary">
-                  </div>
+                  </div> -->
 
                   <div class="mb-3">
                     <label for="department" class="form-label">Department</label>
-                    <input type="text" class="form-control" id="department" name="department" [(ngModel)]="addEmployeeRequest.department">
+                    <input type="text" class="form-control is-invalid" id="department" name="department" [(ngModel)]="addEmployeeRequest.department" required>
                   </div>
                 
                 <button type="submit" class="btn btn-primary">Save</button>
