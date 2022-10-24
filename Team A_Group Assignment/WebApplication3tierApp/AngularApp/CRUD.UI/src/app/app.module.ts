@@ -20,6 +20,7 @@ import { EditLecturerComponent } from './components/lecturers/edit-lecturer/edit
 import { SubjectsListComponent } from './components/subjects/subjects-list/subjects-list.component';
 import { AddSubjectComponent } from './components/subjects/add-subject/add-subject.component';
 import { EditSubjectComponent } from './components/subjects/edit-subject/edit-subject.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { EditSubjectComponent } from './components/subjects/edit-subject/edit-su
     EditLecturerComponent,
     SubjectsListComponent,
     AddSubjectComponent,
-    EditSubjectComponent
+    EditSubjectComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
