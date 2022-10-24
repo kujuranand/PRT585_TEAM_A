@@ -23,7 +23,19 @@ namespace _1CommonInfrastructure.Enums
         StudentUpdate,
 
         [ActionGroupDescription("Student", "Delete")]
-        StudentDelete
+        StudentDelete,
+
+        [ActionGroupDescription("Course", "View")]
+        CourseView,
+
+        [ActionGroupDescription("Course", "Create")]
+        CourseCreate,
+
+        [ActionGroupDescription("Course", "Update")]
+        CourseUpdate,
+
+        [ActionGroupDescription("Course", "Delete")]
+        CourseDelete
     }
 }
 
