@@ -19,12 +19,17 @@ import { SubjectsListComponent } from './components/subjects/subjects-list/subje
 import { AddSubjectComponent } from './components/subjects/add-subject/add-subject.component';
 import { EditSubjectComponent } from './components/subjects/edit-subject/edit-subject.component';
 import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
   },
   {
     path: 'employees',
