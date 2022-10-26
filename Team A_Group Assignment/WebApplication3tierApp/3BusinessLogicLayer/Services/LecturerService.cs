@@ -1,4 +1,6 @@
-﻿
+﻿using _1CommonInfrastructure.Enums;
+using _1CommonInfrastructure.Validations;
+using System.Data;
 
 using _1CommonInfrastructure.Models;
 using _2DataAccessLayer.Interfaces;
@@ -6,7 +8,7 @@ using _3BusinessLogicLayer.Interfaces;
 
 namespace _3BusinessLogicLayer.Services
 {
-    public class LecturerService :  ILecturerService
+    public class LecturerService : BaseService, ILecturerService
     {
         private readonly ILecturerDal _LecturerDal;
         //private readonly ILecturerBalService _LecturerBalService;
@@ -27,15 +29,19 @@ namespace _3BusinessLogicLayer.Services
         }
 
         public async Task<List<LecturerModel>> GetAll()
-        {            
+        {
+            await ValidateAccess(SystemActions.LecturerView);
             return _LecturerDal.GetAll();
         }
 
         public async Task<int> CreateLecturer(LecturerModel Lecturer)
         {
-            //write validations here
-            var newId = _LecturerDal.CreateLecturer(Lecturer);
-            return newId;
+            await ValidateAccess(SystemActions.LecturerView);
+
+            CheckFluentValidation(await new LecturerValidator ().ValidateAsync (Lecturer));
+
+            var newLecturerId = _LecturerDal.CreateLecturer(Lecturer);
+            return newLecturerId;
         }
 
         public async Task UpdateLecturer(LecturerModel Lecturer)
