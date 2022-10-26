@@ -22,6 +22,7 @@ import { AddSubjectComponent } from './components/subjects/add-subject/add-subje
 import { EditSubjectComponent } from './components/subjects/edit-subject/edit-subject.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { LoginComponent } from './components/login/login.component';
     AddSubjectComponent,
     EditSubjectComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

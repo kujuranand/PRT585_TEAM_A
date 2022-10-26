@@ -20,6 +20,7 @@ import { AddSubjectComponent } from './components/subjects/add-subject/add-subje
 import { EditSubjectComponent } from './components/subjects/edit-subject/edit-subject.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'login/register',
+    component: RegisterComponent
   },
   {
     path: 'employees',
