@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Course } from 'app/models/course.model';
 import { CoursesService } from 'app/services/courses.service';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -17,7 +18,7 @@ export class AddCourseComponent implements OnInit {
     duration: 0,
   };
 
-  constructor(private courseService: CoursesService, private router: Router) { }
+  constructor(private courseService: CoursesService, private router: Router,private toastr: ToastrService) { }
 
   ngOnInit(): void {
   }
@@ -27,6 +28,7 @@ export class AddCourseComponent implements OnInit {
     .subscribe({
       next: (course) => {
         this.router.navigate(['courses']);
+        this.toastr.success("You added Course Successfully");
       }
     });
   }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Student } from 'app/models/student.model';
 import { StudentsService } from 'app/services/students.service';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -19,7 +20,7 @@ export class EditStudentComponent implements OnInit {
     course:''
   };
 
-  constructor(private route: ActivatedRoute, private studentService: StudentsService, private router: Router) { }
+  constructor(private route: ActivatedRoute, private studentService: StudentsService, private router: Router, private toastr: ToastrService) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe({
@@ -43,6 +44,7 @@ export class EditStudentComponent implements OnInit {
     .subscribe({
       next: (response) => {
         this.router.navigate(['students']);
+        this.toastr.success("You Updated successfully");
       }
     });
   }
@@ -52,6 +54,7 @@ export class EditStudentComponent implements OnInit {
     .subscribe({
       next: (response) => {
         this.router.navigate(['students']);
+        this.toastr.success("You deleted successfully");
       }
     });
   }
