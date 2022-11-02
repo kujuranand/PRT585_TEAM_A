@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "name": "Ashish Gadhiya",
+      "email": "ashishgadhiya60@gmail.com",
+      "phone": 405266769,
+      "course": "IT",
+      "id": 2
+    },
+    {
+      "name": "Looja",
+      "email": "Looja@email.com",
+      "phone": 34534636,
+      "course": "IT",
+      "id": 3
+    }
+  ]
+}
