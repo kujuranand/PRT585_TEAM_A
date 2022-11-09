@@ -1,0 +1,24 @@
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.deps.json
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.csproj.AssemblyReference.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.AssemblyInfo.cs
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\refint\1CommonInfrastructure.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\ref\1CommonInfrastructure.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.deps.json
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.csproj.AssemblyReference.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.AssemblyInfoInputs.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.AssemblyInfo.cs
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.csproj.CoreCompileInputs.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\refint\1CommonInfrastructure.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\1CommonInfrastructure\obj\Debug\net6.0\ref\1CommonInfrastructure.dll

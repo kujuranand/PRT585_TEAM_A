@@ -1,0 +1,38 @@
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\4Bootstrap.deps.json
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\4Bootstrap.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\4Bootstrap.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\2DataAccessLayer.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\3BusinessLogicLayer.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\2DataAccessLayer.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\3BusinessLogicLayer.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.csproj.AssemblyReference.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.AssemblyInfoInputs.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.AssemblyInfo.cs
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.csproj.CoreCompileInputs.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.csproj.CopyComplete
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\refint\4Bootstrap.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\ref\4Bootstrap.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\4Bootstrap.deps.json
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\4Bootstrap.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\4Bootstrap.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\1CommonInfrastructure.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\2DataAccessLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\3BusinessLogicLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\2DataAccessLayer.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\3BusinessLogicLayer.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\bin\Debug\net6.0\1CommonInfrastructure.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.csproj.AssemblyReference.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.AssemblyInfoInputs.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.AssemblyInfo.cs
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.csproj.CoreCompileInputs.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.csproj.CopyComplete
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\refint\4Bootstrap.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\4Bootstrap.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\4Bootstrap\obj\Debug\net6.0\ref\4Bootstrap.dll

@@ -1,0 +1,34 @@
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.deps.json
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\2DataAccessLayer.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\2DataAccessLayer.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\refint\3BusinessLogicLayer.dll
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.pdb
+C:\Users\Anand Kujur\Documents\GitHub\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\ref\3BusinessLogicLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.deps.json
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\1CommonInfrastructure.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\2DataAccessLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\1CommonInfrastructure.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\bin\Debug\net6.0\2DataAccessLayer.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.AssemblyInfoInputs.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.AssemblyInfo.cs
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.CopyComplete
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\refint\3BusinessLogicLayer.dll
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.pdb
+D:\CDU\Sem 4\PRT585 SOFTWARE ENGINEERING PRACTICE\Week 10\Nare\WebApplication3tierApp\3BusinessLogicLayer\obj\Debug\net6.0\ref\3BusinessLogicLayer.dll
